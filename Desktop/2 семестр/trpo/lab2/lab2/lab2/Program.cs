@@ -10,6 +10,19 @@ namespace lab2
     {
         static void Main(string[] args)
         {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+
+            //считывание данных о нажатой клавиши
+            ConsoleKeyInfo key = Console.ReadKey();
+            
+            //получение символа нажатой клавиши (если возможно)
+            char ch = key.KeyChar;
+
+
+
+            Console.ReadKey();
+
         }
     }
 }
