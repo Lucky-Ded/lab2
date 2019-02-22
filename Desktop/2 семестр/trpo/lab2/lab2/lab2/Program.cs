@@ -21,9 +21,13 @@ namespace lab2
 
 
 
+
             if (ch == '+') Console.WriteLine("{0}", a + b);
 
             if (ch == '-') Console.WriteLine("{0}", a - b);
+
+
+            if (ch == '*') Console.WriteLine("{0}", a * b);
 
             Console.ReadKey();
 
